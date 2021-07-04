@@ -1,0 +1,72 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  background-image: url(pexels-sudipta-mondal-1603650.jpg);
+  width: 100%;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  padding: 15px;
+  background-color: rgba(78, 78, 78, 0.473);
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 10%;
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+}
+.nav-bar {
+  margin-right: 8%;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.nav-bar li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+li {
+  background-color: rgb(13, 207, 165);
+  padding: 10px 20px;
+  border-radius: 6%;
+}
+li a {
+  color: white;
+  font-weight: 700;
+}
+li:hover {
+  background-color: rgb(240, 102, 102);
+}
+.middle1 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+}
+.middle1 span {
+  color: rgb(20, 187, 187);
+}
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.link {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.link li {
+  list-style-type: none;
+}
